@@ -1,0 +1,24 @@
+# Git / IDE
+.git
+.gitignore
+.idea
+*.iml
+.vscode
+
+# Gradle (rebuilt inside image)
+.gradle
+build
+out
+
+# Local env / OS
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+# Compose / orchestration (not needed for image build context)
+docker-compose*.yml
+
+# Docs (not needed in build context)
+*.md

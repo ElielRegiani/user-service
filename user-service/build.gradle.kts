@@ -38,6 +38,10 @@ tasks.withType<Test> {
     useJUnitPlatform()
 }
 
+tasks.bootJar {
+    archiveFileName.set("app.jar")
+}
+
 kotlin {
     compilerOptions {
         jvmTarget.set(JvmTarget.JVM_21)
